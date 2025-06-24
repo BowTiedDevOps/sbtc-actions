@@ -27,7 +27,7 @@ runs:
   steps:
     - name: Setup Rust Toolchain
       id: setup_rust_toolchain
-      uses: actions-rust-lang/setup-rust-toolchain@9399c7bb15d4c7d47b27263d024f0a4978346ba4 # v1.11.0
+      uses: actions-rust-lang/setup-rust-toolchain@fb51252c7ba57d633bc668f941da052e410add48 # v1.13.0
       with:
         components: ${{ inputs.components }}
         cache-key: ${{ inputs.cache-key }}

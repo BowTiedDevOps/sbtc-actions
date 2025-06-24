@@ -31,7 +31,7 @@ runs:
   steps:
     - name: Wait Other Jobs
       id: wait_other_jobs
-      uses: kachick/wait-other-jobs@215c93f93f91e8f9a5ccb7fc0cc78220c9fd8a99 # v3.8.0
+      uses: kachick/wait-other-jobs@755be1ff093bd2a6a82a24bfc50ef4d9fe491a59 # v3.8.1
       with:
         retry-method: ${{ inputs.retry-method }}
         wait-seconds-before-first-polling: ${{ inputs.wait-seconds-before-first-polling }}

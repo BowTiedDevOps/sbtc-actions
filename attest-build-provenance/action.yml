@@ -24,7 +24,7 @@ runs:
   steps:
     - name: Generate Artifact Attestation
       id: generate_artifact_attestation
-      uses: actions/attest-build-provenance@c074443f1aee8d4aeeae555aebba3282517141b2 # v2.2.3
+      uses: actions/attest-build-provenance@e8998f949152b193b063cb0ec769d69d929409be # v2.4.0
       with:
         subject-name: ${{ inputs.subject-name }}
         subject-digest: ${{ inputs.subject-digest }}
